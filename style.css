@@ -1,0 +1,115 @@
+
+body{
+        background-image: url("background.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.container{
+    text-align: center;
+    margin-top: 23px;
+}
+table{
+    margin: auto;
+}
+input{
+    font-size: 34px;
+    border: 5px solid #244624;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button{
+    font-size: 40px;
+    background: #978fa0;
+    width: 102.5px; 
+     height: 58px;
+    /* width: 102px;
+    height: 70px; */ 
+     border-radius: 5px;
+}
+#C{
+    background: rgb(255, 134, 134);
+}
+.special{
+    background: rgb(255, 255, 164);
+}
+.calculator{
+    /* background-color: rgb(209, 209, 254); */
+    background: rgb(245, 190, 199);
+    padding: 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    display: inline-block;
+    border: 2px black solid;
+}
+#cal{
+    border: 2px black solid;
+    margin: 0px 524px 0px 524px;
+    background-color: rgb(252, 110, 209);
+    padding: 5px;
+    color: white;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+/*media screen query*/
+
+/*for mobile phone*/
+@media only screen and (max-width: 800px) {
+    body{
+        background: white;
+    }
+    .calculator{
+        padding:5.5px;
+        border-radius: 7px;
+    }
+    button{
+        font-size: 30px;
+        background: #978fa0;
+        width: 90.5px; 
+         height: 58px;
+        /* width: 102px;
+        height: 70px; */ 
+         border-radius: 5px;
+    }
+    input{
+        font-size: 30px;
+        border: 5px solid #244624;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #cal{
+        display: none;
+    } 
+}
+
+
+/*for tab  and other thing*/
+@media only screen and (max-width: 1100px){
+    body{
+        background: white;
+    }
+    #cal{
+        margin-left: 166px;
+        margin-right: 166px;
+    }
+    .container{
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 1300px){
+    body{
+        background: white;
+    }
+    #cal{
+        display: none;
+    } 
+    .calculator{
+        border-radius: 7px;
+    }
+}
+
+
+
